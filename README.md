@@ -14,7 +14,7 @@ General -> Additional Include Directories:
 $(VULKAN_SDK)\Include;..\..\glfw\include;..\..\glm;%(AdditionalIncludeDirectories)  
 
 ### Linker
-General  -> Additional Library Directories:  
+General  -> Additional Library Directories:  (Note: uses VULKAN_SDK env variable)
 ..\..\glfw\build\src\Release;$(VULKAN_SDK)\Lib;%(AdditionalLibraryDirectories)  
 Input  -> Additional Dependencies  
 vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)  
