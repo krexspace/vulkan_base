@@ -8,7 +8,7 @@ mkdir build
 cmake -G "Visual Studio 15 2017 Win64" ..  
 Open with VS 2017, build the lib in Release mode.
 
-# Visual Studion Build Configuration
+# Visual Studio Build Configuration
 ### C++
 General -> Additional Include Directories:  
 $(VULKAN_SDK)\Include;..\..\glfw\include;..\..\glm;%(AdditionalIncludeDirectories)  
