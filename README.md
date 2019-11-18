@@ -1,5 +1,5 @@
 # vulkan_base
-Vulkan testbed based on the online vulkan tutorial.
+Vulkan testbed based on the online vulkan tutorial at https://vulkan-tutorial.com/  
 
 ## GLFW Build
 Build it with cmake.  
