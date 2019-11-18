@@ -1,2 +1,2 @@
 # vulkan_base
-Vulkan testbed
+Vulkan testbed based on the online vulkan tutorial.
